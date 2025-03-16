@@ -8,33 +8,24 @@ export const HERO_CONTENT = `Hello, I am currently an undergraduate at NSBM Univ
 export const ABOUT_TEXT = `I am a member of reputed societies such as FOSS., IEEE, Hackathon Hub and CompuVate association (NSBM). I have taken part in events such as TechnoVac hosted by the IEEE, and AlgoXplore done by the Hackathon Hub. I am also active in these societies as a member of the Designing Team in the Hackathon Hub, and as a Vice secretary and the Team Lead of the content creating team of CompuVate association.`;
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project re.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description:`Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
+     year: "2025 - 2025",
+    title: "Cake Shop Website",
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    technologies: ["HTML", "Javascript", "mySQL", "PHP","Tailwind"],
+  },
+  {
+    year: "2024 - 2024",
+    title: "Weather Monitoring Device",
+    description: `This project is a Weather Monitoring System built using an Arduino-compatible microcontroller. It measures temperature, humidity, and time, then displays this information on an LED matrix display. The system continuously updates the display with real-time data collected from sensors.`,
+    technologies: ["C++"],
   },
   {
     year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    title: "Food Takeaway",
+    description:``,
+    technologies: ["C#", "mySQL", ".NET"],
   },
+  
 ];
 
 export const PROJECTS = [
