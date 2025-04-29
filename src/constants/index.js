@@ -22,7 +22,7 @@ export const EXPERIENCES = [
   {
     year: "2020 - 2021",
     title: "Food Takeaway",
-    description:``,
+    description:`Food Take Away System is an application designed to help restaurants optimize and control their operations efficiently. This internet-enabled system connects restaurants or food companies with customers, making the ordering process seamless, secure, and convenient.`,
     technologies: ["C#", "mySQL", ".NET"],
   },
   
