@@ -1,4 +1,5 @@
 import { EXPERIENCES } from "../constants";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -16,7 +17,19 @@ const Projects = () => {
 
             </h6>
             <p className="mb-4 text-neutral-400">{experience.description}</p>
+
+             <a
+                href={experience.githublink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-blue-400 underline hover:text-blue-600"
+              >
+              <FaGithub /> View on GitHub
+            </a>
+
             </div>
+             
+            
             </div>
           
         ))}

@@ -7,23 +7,43 @@ export const HERO_CONTENT = `Hello, I am currently an undergraduate at NSBM Univ
 
 export const ABOUT_TEXT = `I am a member of reputed societies such as FOSS., IEEE, Hackathon Hub and CompuVate association (NSBM). I have taken part in events such as TechnoVac hosted by the IEEE, and AlgoXplore done by the Hackathon Hub. I am also active in these societies as a member of the Designing Team in the Hackathon Hub, and as a Vice secretary and the Team Lead of the content creating team of CompuVate association.`;
 export const EXPERIENCES = [
+   {
+    year: "2025 - 2025",
+    title: "Online Examnination System",
+    description:`The Online Examination System is a web application with two roles: Educator and Student. Educators can create quizzes and view them, while students can take quizzes and see their results. Only students have access to AI features that help them understand why they lost marks and how they can improve in future quizzes.`,
+    technologies: ["ASP.NET", "blazor", "Tailwind CSS", " SQLite"],
+    githublink: "https://github.com/sdhaputhanthrie/test.git",
+  },
   {
      year: "2025 - 2025",
     title: "Cake Shop Website",
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
     technologies: ["HTML", "Javascript", "mySQL", "PHP","Tailwind"],
+    githublink:"https://github.com/sdhaputhanthrie/rosemary.git",
+
   },
   {
     year: "2024 - 2024",
     title: "Weather Monitoring Device",
     description: `This project is a Weather Monitoring System built using an Arduino-compatible microcontroller. It measures temperature, humidity, and time, then displays this information on an LED matrix display. The system continuously updates the display with real-time data collected from sensors.`,
     technologies: ["C++"],
+    githublink: "https://github.com/sdhaputhanthrie/Weather-Monitoring-device.git",
   },
+  
+   {
+    year: "2020 - 2021",
+    title: "Food Takeaway",
+    description:`Food Take Away System is an application designed to help restaurants optimize and control their operations efficiently. This internet-enabled system connects restaurants or food companies with customers, making the ordering process seamless, secure, and convenient.`,
+    technologies: ["C#", "mySQL", ".NET"],
+    githublink: "https://github.com/sdhaputhanthrie/Food_take_away.git",
+  },
+
   {
     year: "2020 - 2021",
     title: "Food Takeaway",
     description:`Food Take Away System is an application designed to help restaurants optimize and control their operations efficiently. This internet-enabled system connects restaurants or food companies with customers, making the ordering process seamless, secure, and convenient.`,
     technologies: ["C#", "mySQL", ".NET"],
+    githublink: "https://github.com/sdhaputhanthrie/Food_take_away.git",
   },
   
 ];
